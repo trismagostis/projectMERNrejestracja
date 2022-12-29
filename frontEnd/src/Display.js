@@ -23,10 +23,11 @@ function Display(props) {
   return (
     <table>
       <thead>
-        <th>Person 1</th>
-        <th>Person 2</th>
-        <th>Person 3</th>
-        <th>Person 4</th>
+        <th>Imię</th>
+        <th>Nazwisko</th>
+        <th>Kurs</th>
+        <th>Miejsce</th>
+        <th>Usuń</th>
       </thead>
       <tbody>{listDisplayTable}</tbody>
     </table>
